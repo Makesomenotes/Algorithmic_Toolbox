@@ -3,14 +3,14 @@ files:
 - name: last_digit_of_the_sum_of_fibonacci_numbers.py
   visible: true
   placeholders:
-  - offset: 470
-    length: 9
+  - offset: 733
+    length: 39
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 470
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -108,4 +108,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-2-algorithmic-warm-up/discussions
 status: Unchecked
+feedback:
+  message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-2-algorithmic-warm-up/submission">submit
+    to Coursera</a>
+  time: Thu, 29 Jul 2021 19:54:02 UTC
 record: -1

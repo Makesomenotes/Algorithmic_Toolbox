@@ -16,10 +16,23 @@ def last_digit_of_the_sum_of_fibonacci_numbers_naive(n):
     return sum(fibonacci_numbers) % 10
 
 
+def fibonacci_number(n):
+    Fib_lst = []
+    for i in range(n+1):
+        if i <= 1:
+            Fib_lst.append(i)
+        else:
+            curr = Fib_lst[i-2] + Fib_lst[i-1]
+            Fib_lst.append(curr)
+        # print(Fib_lst[i])
+
+    return Fib_lst[n]
+
+
 def last_digit_of_the_sum_of_fibonacci_numbers(n):
     assert 0 <= n <= 10 ** 18
 
-    type here
+    return (fibonacci_number(n+2) - 1) % 10
 
 
 if __name__ == '__main__':
